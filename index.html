@@ -1,37 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>Noxxflare Overlay</title>
+<title>Apex Overlay</title>
 
 <style>
-
-html, body{
-margin:0;
-padding:0;
-background:transparent;
-overflow:hidden;
-width:100%;
-height:100%;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+  background: transparent;
+  overflow: hidden;
 }
 
-.banner{
-position:fixed;
-bottom:0;
-left:0;
-width:100%;
-display:flex;
-justify-content:center;
-align-items:flex-end;
-pointer-events:none;
+/* Banner sabit olarak en altta */
+.banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
 }
 
 .banner img{
-width:100%;
-max-width:1920px;
-height:auto;
+  width: 100%;
+  height: auto;
 }
-
 </style>
 
 </head>
@@ -39,7 +36,7 @@ height:auto;
 <body>
 
 <div class="banner">
-<img src="DENEME.jpg">
+  <img src="DENEME.jpg?v=2">
 </div>
 
 </body>
