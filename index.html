@@ -1,47 +1,30 @@
+
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Apexmyko yayın</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 1920px;
-      height: 1080px;
-      background: transparent;
-      overflow: hidden;
-    }
-
-    body {
-      position: relative;
-    }
-
-    .banner {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 1920px;
-      height: auto;
-      z-index: 1;
-      pointer-events: none;
-    }
-
-    .sponsor {
-      position: absolute;
-      left: 146px;
-      top: 859px;
-      width: 220px;
-      height: auto;
-      z-index: 2;
-      pointer-events: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>apexmyko</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 1920px;
+            height: 1080px;
+            background: transparent;
+            overflow: hidden;
+        }
+        .overlay-image {
+            position: absolute;
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
+    
+    <img src="sponsor.gif" style="position: absolute; left: 90px; top: 900px; width: 280px;">
 
-  <img src="DENEME.jpg" class="banner">
-  <img src="sponsor.gif" class="sponsor">
+   
+    <img src="DENEME.jpg" style="position: absolute; left: 0px; bottom: 0px; width: 1920px;">
 
 </body>
 </html>
